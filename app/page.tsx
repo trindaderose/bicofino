@@ -6,7 +6,9 @@ export default function Home() {
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={title()}>Bem-vindo, somos a&nbsp;</h1>
-        <h1 className={title({ color: "orange", size: "lg" })}>Bico Fino&nbsp;</h1>
+        <h1 className={title({ color: "orange", size: "lg" })}>
+          Bico Fino&nbsp;
+        </h1>
         <br />
 
         <h2 className={subtitle({ class: "my-4" })}>
