@@ -8,10 +8,10 @@ import {
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
+import { FaGithub } from "react-icons/fa";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { GithubIcon, SearchIcon } from "@/components/icons";
 
 export const Navbar = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -30,7 +30,7 @@ export const Navbar = () => {
       labelPlacement="outside"
       placeholder="Search..."
       startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
+        <FaGithub className="text-base text-default-400 pointer-events-none flex-shrink-0" />
       }
       type="search"
     />
@@ -69,7 +69,7 @@ export const Navbar = () => {
       >
         <NavbarItem className="hidden sm:flex gap-2">
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
+            <FaGithub className="text-default-500" />
           </Link>
           <ThemeSwitch />
         </NavbarItem>
@@ -90,7 +90,7 @@ export const Navbar = () => {
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-          <GithubIcon className="text-default-500" />
+          <FaGithub className="text-default-500" />
         </Link>
         <ThemeSwitch />
         <NavbarMenuToggle />
