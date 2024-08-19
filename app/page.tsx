@@ -1,7 +1,4 @@
 import { title, subtitle } from "@/components/primitives";
-import Bar from "@/components/bar";
-import Restaurante from "@/components/restaurante";
-import Switcher from "@/components/switch";
 import TabSwitcher from "@/components/tab-switch";
 
 export default function Home() {
