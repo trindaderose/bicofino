@@ -1,0 +1,82 @@
+[
+  {
+    "caption": "Cachaça com manga, abacaxi e hortelã, servida em um coco fresco.",
+    "category": "bebidas",
+    "id": "1",
+    "image": "/images/bar/4.png",
+    "link": "https://example.com/ecommerce",
+    "position": "center",
+    "price": "28",
+    "title": "Caipirinha Tropical"
+  },
+  {
+    "caption": "Rum branco com hortelã, limão, açúcar e água com gás, decorado com um raminho de hortelã.",
+    "category": "bebidas",
+    "id": "2",
+    "image": "/images/bar/2.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "22",
+    "title": "Mojito Refrescante"
+  },
+  {
+    "caption": "Gin, Campari e vermute doce, servido com casca de laranja.",
+    "category": "bebidas",
+    "id": "3",
+    "image": "/images/bar/3.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "29",
+    "title": "Negroni"
+  },
+  {
+    "caption": "Vodka, Cointreau, suco de cranberry e suco de limão, servido em uma taça de martini.",
+    "category": "bebidas",
+    "id": "4",
+    "image": "/images/bar/4.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "26",
+    "title": "Cosmopolitan"
+  },
+  {
+    "caption": "Vodka, gengibre e suco de limão, servido em uma caneca de cobre.",
+    "category": "bebidas",
+    "id": "5",
+    "image": "/images/bar/5.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "28",
+    "title": "Moscow Mule"
+  },
+  {
+    "caption": "Café, uísque irlandês, açúcar mascavo e creme de leite, servido em uma caneca de vidro.",
+    "category": "bebidas",
+    "id": "6",
+    "image": "/images/bar/6.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "29",
+    "title": "Irish Coffee Energético"
+  },
+  {
+    "caption": "Rum branco, suco de limão, licor de laranja e pimenta dedo-de-moça, servido em uma taça de martini. ",
+    "category": "bebidas",
+    "id": "7",
+    "image": "/images/bar/7.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "26",
+    "title": "Daiquiri"
+  },
+  {
+    "caption": "Rum branco, suco de limão, licor de laranja e pimenta dedo-de-moça, servido em uma taça de martini. ",
+    "category": "bebidas",
+    "id": "7",
+    "image": "/images/bar/7.png",
+    "link": "https://example.com/bebidas",
+    "position": "center",
+    "price": "26",
+    "title": "Daiquiri"
+  }
+]
