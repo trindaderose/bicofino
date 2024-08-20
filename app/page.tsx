@@ -15,13 +15,7 @@ export default function Home() {
           Sabores que trazem boas lembranças.
         </h2>
       </div>
-      {/* <Switcher /> */}
       <TabSwitcher />
-
-      {/* <div className="flex w-full">
-        <Bar />
-      </div>
-      <Restaurante /> */}
     </section>
   );
 }

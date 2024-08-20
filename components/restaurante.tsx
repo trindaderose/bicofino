@@ -37,6 +37,7 @@ export default function Restaurante() {
               alt={project.title}
               className="object-cover object-center"
               height={400}
+              loading="lazy"
               src={project.image}
               width={600}
             />
