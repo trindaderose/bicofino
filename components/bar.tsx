@@ -10,7 +10,6 @@ type ProjectTypes = {
   id: string;
   image: string;
   link: string;
-  position: string;
   price: string;
   title: string;
   opcoes?: string;

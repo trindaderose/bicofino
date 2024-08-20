@@ -1,82 +1,74 @@
 [
   {
-    "caption": "Um mix colorido de legumes grelhados, incluindo abobrinha, pimentões e berinjela, servido sobre um tabule de quinoa com molho tahine.",
-    "category": "ecom",
-    "id": "1",
-    "image": "/images/restaurante/frango.png",
-    "link": "https://example.com/ecommerce",
-    "position": "center",
-    "price": "32",
-    "title": "Misto de Legumes Grelhados com Tabule de Quinoa"
+    "caption": "Risoto cremoso de funghi porcini com trufas frescas, finalizado com queijo parmesão.",
+    "category": "restaurante",
+    "id": "9",
+    "image": "/images/restaurante/risotto.webp",
+    "link": "https://example.com/risotto",
+    "price": "48",
+    "title": "Risoto de Funghi Porcini"
   },
   {
-    "caption": "Filé de salmão grelhado na frigideira até ficar perfeito, coberto com um beurre blanc cítrico e servido com aspargos assados e quinoa.",
-    "category": "cv",
-    "id": "2",
-    "image": "/images/restaurante/pizza.png",
-    "link": "https://example.com/cv",
-    "position": "center",
-    "price": "42",
-    "title": "Salmão Grelhado na Panela com Beurre Blanc de Limão"
-  },
-  {
-    "caption": "Bolinhos de arroz dourados recheados com risoto cremoso de trufas, finalizados com azeite de trufas e lascas de parmesão.",
-    "category": "cv",
-    "id": "3",
-    "image": "/images/restaurante/poke.png",
-    "link": "https://example.com/cv",
-    "position": "center",
-    "price": "32",
-    "title": "Arrancini de Trufa"
-  },
-  {
-    "caption": "Hambúrguer suculento de cordeiro coberto com queijo feta esfarelado, hortelã fresca e molho tzatziki, no pão brioche tostado.",
-    "category": "cv",
-    "id": "4",
-    "image": "/images/restaurante/salmao.png",
-    "link": "https://example.com/cv",
-    "position": "center",
-    "price": "38",
-    "title": "Hambúrguer de Cordeiro com Feta e Hortelã"
-  },
-  {
-    "caption": "Vieiras grelhadas na frigideira sobre um cama de chouriço e salsa de milho assado, finalizadas com um toque de creme de coentro.",
-    "category": "cv",
-    "id": "5",
-    "image": "/images/restaurante/sopa-cogu.png",
-    "link": "https://example.com/cv",
-    "position": "center",
+    "caption": "Lasanha à bolonhesa tradicional, com camadas de massa fresca, molho bolonhesa e bechamel, gratinada com queijo.",
+    "category": "restaurante",
+    "id": "10",
+    "image": "/images/restaurante/lasanha.webp",
+    "link": "https://example.com/lasanha",
     "price": "35",
-    "title": "Vieiras Searadas com Chouriço"
+    "title": "Lasanha à Bolonhesa"
   },
   {
-    "caption": "Fatias finas de polvo grelhadas na perfeição, servidas com um mix de sabores mediterrâneos, incluindo azeitonas, alcaparras e queijo feta.",
-    "category": "cv",
-    "id": "6",
-    "image": "/images/restaurante/x-burger.png",
-    "link": "https://example.com/cv",
-    "position": "center",
-    "price": "50",
-    "title": "Carpaccio de Polvo Grelhado"
+    "caption": "Peixe branco grelhado com crosta de amêndoas, acompanhado de purê de batata doce e espinafre salteado.",
+    "category": "restaurante",
+    "id": "11",
+    "image": "/images/restaurante/peixe_branco.webp",
+    "link": "https://example.com/peixe_branco",
+    "price": "42",
+    "title": "Peixe Branco com Crosta de Amêndoas"
   },
   {
-    "caption": "Costela desfiando do osso cozida lentamente, servida sobre polenta cremosa com legumes assados e um molho encorpado de vinho tinto.",
-    "category": "cv",
-    "id": "7",
-    "image": "/images/restaurante/x-burger.png",
-    "link": "https://example.com/cv",
-    "position": "center",
-    "price": "45",
-    "title": "Costela Braseada com Polenta"
+    "caption": "Bife de chorizo argentino grelhado na pedra, acompanhado de batata rústica e chimichurri.",
+    "category": "restaurante",
+    "id": "12",
+    "image": "/images/restaurante/bife_chorizo.webp",
+    "link": "https://example.com/bife_chorizo",
+    "price": "55",
+    "title": "Bife de Chorizo Argentino"
   },
   {
-    "caption": "Costela desfiando do osso cozida lentamente, servida sobre polenta cremosa com legumes assados e um molho encorpado de vinho tinto.",
-    "category": "cv",
-    "id": "8",
-    "image": "/images/restaurante/x-burger.png",
-    "link": "https://example.com/cv",
-    "position": "center",
-    "price": "45",
-    "title": "Costela Braseada com Polenta"
+    "caption": "Salada Caesar clássica com alface romana, croutons caseiros, queijo parmesão e molho Caesar cremoso.",
+    "category": "restaurante",
+    "id": "13",
+    "image": "/images/restaurante/salada_caesar.webp",
+    "link": "https://example.com/salada_caesar",
+    "price": "28",
+    "title": "Salada Caesar"
+  },
+  {
+    "caption": "Wrap de frango grelhado com guacamole, tomate cereja e alface americana, em tortilla integral.",
+    "category": "restaurante",
+    "id": "14",
+    "image": "/images/restaurante/wrap_frango.webp",
+    "link": "https://example.com/wrap_frango",
+    "price": "30",
+    "title": "Wrap de Frango com Guacamole"
+  },
+  {
+    "caption": "Omelete recheada com queijo gruyère, cogumelos salteados e espinafre, acompanhada de torradas.",
+    "category": "restaurante",
+    "id": "15",
+    "image": "/images/restaurante/omelete.webp",
+    "link": "https://example.com/omelete",
+    "price": "25",
+    "title": "Omelete"
+  },
+  {
+    "caption": "Sanduíche de pastrami com queijo suíço em pão de centeio, acompanhado de picles e mostarda.",
+    "category": "restaurante",
+    "id": "16",
+    "image": "/images/restaurante/sanduiche_pastrami.webp",
+    "link": "https://example.com/sanduiche_pastrami",
+    "price": "32",
+    "title": "Sanduíche de Pastrami"
   }
 ]
