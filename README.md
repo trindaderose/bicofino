@@ -1,7 +1,9 @@
 <h1 align="left">Bico Fino </h1>
-<p>Cardápio para restaurante.</p>
+<p>fancy restaurant menu.</p>
 
 ### :bird: [Homepage](https://bicofino.pages.dev/)
+
+![screenshot](/public/screenshot.png)
 
 ## :star2: Technologies Used
 
