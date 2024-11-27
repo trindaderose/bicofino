@@ -14,6 +14,14 @@ export default function Home() {
         <h2 className={subtitle({ class: "my-4" })}>
           Sabores que trazem boas lembranças.
         </h2>
+        <p className="text-[12px] text-neutral-400">
+          Bico Fino é um serviço adaptável de cardápio online, projetado para
+          atender a diferentes nichos. O app oferece uma solução prática e
+          elegante para apresentar produtos ou serviços, desde opções
+          gastronômicas a outros tipos de catálogos. A flexibilidade e a
+          interface amigável tornam o Bico Fino ideal para quem deseja criar uma
+          experiência digital única e funcional para seus clientes.
+        </p>
       </div>
       <TabSwitcher />
     </section>
