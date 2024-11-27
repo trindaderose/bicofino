@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-const path = require("path");
+import path from "path";
 
 const nextConfig = {
   output: "export",
   reactStrictMode: false,
   sassOptions: {
-    includePaths: [path.join(__dirname, "css")],
+    includePaths: [path.join(process.cwd(), "css")],
   },
   trailingSlash: true,
   devIndicators: {
@@ -16,4 +16,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
