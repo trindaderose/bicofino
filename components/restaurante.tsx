@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Card, CardFooter, Image, Button, CardHeader } from "@nextui-org/react";
+import { Card, CardFooter, Image, Button, CardHeader } from "@heroui/react";
 
 import restauranteData from "@/data/restaurante.json";
 
