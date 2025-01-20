@@ -2,7 +2,6 @@ import React from "react";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
-  NavbarMenuToggle,
   NavbarItem,
 } from "@heroui/navbar";
 import { Kbd } from "@heroui/kbd";
