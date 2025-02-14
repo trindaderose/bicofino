@@ -5,12 +5,9 @@ import {
   NavbarItem,
 } from "@heroui/navbar";
 import { Kbd } from "@heroui/kbd";
-import { Link } from "@heroui/link";
 import { Input } from "@heroui/input";
 import { FaGithub } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
-
-import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 
 export const Navbar = () => {
@@ -37,9 +34,6 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar maxWidth="xl" position="sticky">
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-      </NavbarContent>
-
       <NavbarContent
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
@@ -51,8 +45,8 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden text-default-500" justify="end">
-          <ThemeSwitch />
-          <FaCartPlus />
+        <ThemeSwitch />
+        <FaCartPlus />
       </NavbarContent>
     </NextUINavbar>
   );
