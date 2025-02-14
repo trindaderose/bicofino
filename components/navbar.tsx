@@ -8,6 +8,7 @@ import { Kbd } from "@heroui/kbd";
 import { Link } from "@heroui/link";
 import { Input } from "@heroui/input";
 import { FaGithub } from "react-icons/fa";
+import { FaCartPlus } from "react-icons/fa";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -66,24 +67,15 @@ export const Navbar = () => {
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        <NavbarItem className="hidden sm:flex gap-2">
+        {/* <NavbarItem className="hidden sm:flex gap-2">
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <FaGithub className="text-default-500" />
+            <FaGithub className="" />
           </Link>
-          <ThemeSwitch />
-        </NavbarItem>
+          </NavbarItem> */}
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
-        <NavbarItem className="hidden md:flex">
-          {/* <Button
-            isExternal
-            as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
-            href={siteConfig.links.sponsor}
-            startContent={<HeartFilledIcon className="text-danger" />}
-            variant="flat"
-          >
-            Sponsor
-          </Button> */}
+        <NavbarItem className="hidden md:flex gap-2 text-default-500 items-center">
+          <ThemeSwitch />
+          <FaCartPlus />
         </NavbarItem>
       </NavbarContent>
 
@@ -94,29 +86,12 @@ export const Navbar = () => {
         <ThemeSwitch />
         {/* <NavbarMenuToggle /> */}
       </NavbarContent>
-
-      {/* <NavbarMenu>
-        {searchInput}
-        <div className="mx-4 mt-2 flex flex-col gap-2">
-          {siteConfig.navMenuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
-                size="lg"
-              >
-                {item.label}
-              </Link>
-            </NavbarMenuItem>
-          ))}
-        </div>
-      </NavbarMenu> */}
+      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+          <FaCartPlus />
+        </Link>
+        {/* <NavbarMenuToggle /> */}
+      </NavbarContent>
     </NextUINavbar>
   );
 };

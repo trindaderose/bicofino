@@ -24,7 +24,7 @@ export default function Bar() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 ">
       {projects.map((project) => (
         <Card
           key={project.id}
