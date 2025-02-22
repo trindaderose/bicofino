@@ -9,6 +9,7 @@ import { Input } from "@heroui/input";
 import { FaGithub } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
 import { ThemeSwitch } from "@/components/theme-switch";
+import Link from "next/link";
 
 export const Navbar = () => {
   const searchInput = (
@@ -40,7 +41,9 @@ export const Navbar = () => {
       >
         <NavbarItem className="hidden md:flex gap-2 text-default-500 items-center">
           <ThemeSwitch />
+          <Link href="/cart">
           <FaCartPlus />
+          </Link>
         </NavbarItem>
       </NavbarContent>
 

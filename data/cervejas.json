@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "title": "IPA Tropical",
+    "category": "India Pale Ale",
+    "caption": "Uma IPA refrescante com notas tropicais.",
+    "image": "/images/ipa-tropical.jpg",
+    "link": "https://cervejariaexemplo.com/ipa-tropical",
+    "price": "22,90",
+    "opcoes": "Lata 350ml, Garrafa 600ml",
+    "combina_com": "Hambúrgueres, Comida Mexicana"
+  },
+  {
+    "id": "2",
+    "title": "Stout Café",
+    "category": "Stout",
+    "caption": "Cerveja escura com notas intensas de café e chocolate.",
+    "image": "/images/stout-cafe.jpg",
+    "link": "https://cervejariaexemplo.com/stout-cafe",
+    "price": "24,50",
+    "opcoes": "Garrafa 500ml",
+    "combina_com": "Sobremesas de chocolate, Queijos fortes"
+  },
+  {
+    "id": "3",
+    "title": "Pilsen Clássica",
+    "category": "Pilsen",
+    "caption": "Leve, dourada e extremamente refrescante.",
+    "image": "/images/pilsen-classica.jpg",
+    "link": "https://cervejariaexemplo.com/pilsen-classica",
+    "price": "18,90",
+    "opcoes": "Lata 350ml, Garrafa 600ml",
+    "combina_com": "Petiscos, Churrasco"
+  },
+  {
+    "id": "4",
+    "title": "Witbier Cítrica",
+    "category": "Witbier",
+    "caption": "Cerveja de trigo com notas cítricas e condimentadas.",
+    "image": "/images/witbier-citrica.jpg",
+    "link": "https://cervejariaexemplo.com/witbier-citrica",
+    "price": "21,90",
+    "opcoes": "Garrafa 500ml",
+    "combina_com": "Frutos do mar, Saladas"
+  },
+  {
+    "id": "5",
+    "title": "Red Ale Caramelo",
+    "category": "Red Ale",
+    "caption": "Cerveja avermelhada com notas maltadas e de caramelo.",
+    "image": "/images/red-ale.jpg",
+    "link": "https://cervejariaexemplo.com/red-ale-caramelo",
+    "price": "23,90",
+    "opcoes": "Garrafa 500ml",
+    "combina_com": "Queijos suaves, Carnes assadas"
+  },
+  {
+    "id": "6",
+    "title": "Hazy NEIPA",
+    "category": "New England IPA",
+    "caption": "Cerveja turva e extremamente aromática.",
+    "image": "/images/hazy-neipa.jpg",
+    "link": "https://cervejariaexemplo.com/hazy-neipa",
+    "price": "27,90",
+    "opcoes": "Lata 473ml",
+    "combina_com": "Tacos, Queijos azuis"
+  },
+  {
+    "id": "7",
+    "title": "Lager Premium",
+    "category": "Lager",
+    "caption": "Cerveja clara e equilibrada, perfeita para qualquer ocasião.",
+    "image": "/images/lager-premium.jpg",
+    "link": "https://cervejariaexemplo.com/lager-premium",
+    "price": "19,90",
+    "opcoes": "Lata 350ml, Garrafa 600ml",
+    "combina_com": "Frangos grelhados, Massas leves"
+  },
+  {
+    "id": "8",
+    "title": "Barleywine",
+    "category": "Barleywine",
+    "caption": "Cerveja intensa, encorpada e complexa.",
+    "image": "/images/barleywine.jpg",
+    "link": "https://cervejariaexemplo.com/barleywine",
+    "price": "32,90",
+    "opcoes": "Garrafa 500ml",
+    "combina_com": "Pratos ricos, Queijos maturados"
+  }
+]
