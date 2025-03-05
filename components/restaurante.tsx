@@ -53,7 +53,7 @@ export default function Restaurante({ cart, addToCart }: RestauranteProps) {
                 size="sm"
                 onPress={() => addToCart(project)}
               >
-                          <FaCartPlus />
+                          {/* <FaCartPlus /> */}
                 
               </Button>
             </div>

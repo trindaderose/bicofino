@@ -53,7 +53,7 @@ export default function Cervejas({ cart, addToCart }: CervejasProps) {
                 size="sm"
                 onPress={() => addToCart(project)}
               >
-                <FaCartPlus />
+                {/* <FaCartPlus /> */}
 
               </Button>
             </div>
