@@ -71,9 +71,9 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
         })}
       >
         {!isSelected || isSSR ? (
-          <MdSunny size={22} />
+          <> <MdSunny size={22} /> </>
         ) : (
-          <MdDarkMode size={22} />
+          <> <MdDarkMode size={22} /> </>
         )}
       </div>
     </Component>
