@@ -41,15 +41,15 @@ export const Navbar = () => {
       >
         <NavbarItem className="hidden md:flex gap-2 text-default-500 items-center">
           <ThemeSwitch />
-          <Link href="/cart">
+          {/* <Link href="/cart">
           <FaCartPlus />
-          </Link>
+          </Link> */}
         </NavbarItem>
       </NavbarContent>
 
       <NavbarContent className="sm:hidden text-default-500" justify="end">
         <ThemeSwitch />
-        <FaCartPlus />
+        {/* <FaCartPlus /> */}
       </NavbarContent>
     </NextUINavbar>
   );
