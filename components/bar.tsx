@@ -53,7 +53,7 @@ export default function Bar({ cart, addToCart }: BarProps) {
                 size="sm"
                 onPress={() => addToCart(project)}
               >
-                <FaCartPlus />
+                {/* <FaCartPlus /> */}
               </Button>
             </div>
           </CardFooter>
