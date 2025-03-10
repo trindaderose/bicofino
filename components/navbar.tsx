@@ -4,12 +4,8 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@heroui/navbar";
-import { Kbd } from "@heroui/kbd";
-import { Input } from "@heroui/input";
-import { FaGithub } from "react-icons/fa";
-import { FaCartPlus } from "react-icons/fa";
+
 import { ThemeSwitch } from "@/components/theme-switch";
-import Link from "next/link";
 
 export const Navbar = () => {
   // const searchInput = (

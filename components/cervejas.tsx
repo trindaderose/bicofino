@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardFooter, Image, Button, CardHeader } from "@heroui/react";
+
 import cervejasData from "@/data/cervejas.json"; // Supondo que você tenha um arquivo JSON para cervejas
-import { FaCartPlus } from "react-icons/fa";
 
 type ProjectTypes = {
   caption: string;
@@ -23,9 +23,20 @@ export default function Cervejas({ cart, addToCart }: CervejasProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
       {cervejasData.map((project) => (
-        <Card key={project.id} isFooterBlurred className="border-none" radius="lg">
+        <Card
+          key={project.id}
+          isFooterBlurred
+          className="border-none"
+          radius="lg"
+        >
           <div className="relative">
-            <Image alt={project.title} className="object-cover object-center" height={400} src={project.image} width={600} />
+            <Image
+              alt={project.title}
+              className="object-cover object-center"
+              height={400}
+              src={project.image}
+              width={600}
+            />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/50 z-10" />
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
@@ -54,7 +65,6 @@ export default function Cervejas({ cart, addToCart }: CervejasProps) {
                 onPress={() => addToCart(project)}
               >
                 {/* <FaCartPlus /> */}
-
               </Button>
             </div>
           </CardFooter>
