@@ -65,7 +65,7 @@ export default function Cervejas({ cart, addToCart }: CervejasProps) {
                 size="sm"
                 onPress={() => addToCart(project)}
               >
-                <ShoppingCart />
+                <ShoppingCart size={15}/>
               </Button>
             </div>
           </CardFooter>

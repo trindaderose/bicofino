@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 "use client";
 import React, { useState } from "react";
 import {
@@ -98,7 +99,7 @@ export default function TabSwitcher() {
       const phoneNumber = "+5519981720301"; // Substitua pelo número de telefone
       const url = `https://wa.me/${phoneNumber}?text=${message}`;
 
-      // window.open(url, "_blank");
+      window.open(url, "_blank");
     }
   };
 
