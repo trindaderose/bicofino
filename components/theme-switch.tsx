@@ -6,8 +6,8 @@ import { SwitchProps, useSwitch } from "@heroui/switch";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
 import { useIsSSR } from "@react-aria/ssr";
-import { MdSunny } from "react-icons/md";
-import { MdDarkMode } from "react-icons/md";
+// import { MdSunny, MdDarkMode } from "react-icons/md";
+import { Sun, Moon } from "lucide-react";
 
 export interface ThemeSwitchProps {
   className?: string;
@@ -70,17 +70,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
           ),
         })}
       >
-        {!isSelected || isSSR ? (
-          <>
-            {" "}
-            <MdSunny size={22} />{" "}
-          </>
-        ) : (
-          <>
-            {" "}
-            <MdDarkMode size={22} />{" "}
-          </>
-        )}
+        {!isSSR && (!isSelected ? <Sun /> : <Moon />)}
       </div>
     </Component>
   );
