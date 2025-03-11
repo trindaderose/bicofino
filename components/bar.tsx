@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardFooter, Image, Button, CardHeader } from "@heroui/react";
+import { ShoppingCart } from "lucide-react";
 
 import barData from "@/data/bar.json";
 
@@ -64,7 +65,7 @@ export default function Bar({ cart, addToCart }: BarProps) {
                 size="sm"
                 onPress={() => addToCart(project)}
               >
-                {/* <FaCartPlus /> */}
+                <ShoppingCart />
               </Button>
             </div>
           </CardFooter>

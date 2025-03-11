@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardFooter, Image, Button, CardHeader } from "@heroui/react";
 
 import cervejasData from "@/data/cervejas.json"; // Supondo que você tenha um arquivo JSON para cervejas
+import { ShoppingCart } from "lucide-react";
 
 type ProjectTypes = {
   caption: string;
@@ -64,7 +65,7 @@ export default function Cervejas({ cart, addToCart }: CervejasProps) {
                 size="sm"
                 onPress={() => addToCart(project)}
               >
-                {/* <FaCartPlus /> */}
+                <ShoppingCart />
               </Button>
             </div>
           </CardFooter>
