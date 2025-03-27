@@ -14,7 +14,6 @@ type ProjectTypes = {
   title: string;
 };
 
-// Definindo as props esperadas pelo componente Bar
 type BarProps = {
   cart: ProjectTypes[];
   addToCart: (project: ProjectTypes) => void;

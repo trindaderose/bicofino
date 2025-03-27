@@ -133,29 +133,29 @@ export default function TabSwitcher() {
               </CardBody>
             </Card>
           </Tab>
-          <Tab key="salgados" title="Salgados">
+          <Tab key="salgados" title="Pratos">
             <Card>
               <CardBody>
                 <Restaurante addToCart={addToCart} cart={cart} />
               </CardBody>
             </Card>
           </Tab>
-          <Tab key="sobremesas" title="Sobremesas">
+          {/* <Tab key="sobremesas" title="Sobremesas">
             <Card>
               <CardBody>
                 <Restaurante addToCart={addToCart} cart={cart} />
               </CardBody>
             </Card>
-          </Tab>
+          </Tab> */}
         </Tabs>
       </div>
 
       {/* Botão de Finalizar Compra */}
       <div className="fixed bottom-4 right-4 z-50">
         <Button
-          className="text-tiny text-white bg-blue-500"
+          className="text-tiny text-white bg-green-500"
           radius="lg"
-          size="lg"
+          size="sm"
           onPress={openModal}
         >
           Finalizar Compra ({cart.length} itens)
@@ -170,7 +170,7 @@ export default function TabSwitcher() {
           </ModalHeader>
           <ModalBody>
             {cart.length === 0 ? (
-              <p>Nenhum item no carrinho.</p>
+              <p className="text-sm">Nenhum item no carrinho.</p>
             ) : (
               <ul>
                 {cart.map((item) => (
