@@ -6,7 +6,6 @@ import { SwitchProps, useSwitch } from "@heroui/switch";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
 import { useIsSSR } from "@react-aria/ssr";
-// import { MdSunny, MdDarkMode } from "react-icons/md";
 import { Sun, Moon } from "lucide-react";
 
 export interface ThemeSwitchProps {
@@ -34,7 +33,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
     getWrapperProps,
   } = useSwitch({
     isSelected: theme === "light" || isSSR,
-    "aria-label": `Switch to ${theme === "light" || isSSR ? "dark" : "light"} mode`,
+    "aria-label": `Mudar para tema ${theme === "light" || isSSR ? "dark" : "light"} `,
     onChange,
   });
 
